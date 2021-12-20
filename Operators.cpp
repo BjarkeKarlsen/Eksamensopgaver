@@ -21,6 +21,18 @@
 				setY(y_ + rightRef.y_);
 			}
 
+//+= operator - medlemsfunktion - se Januar 2019
+	Header
+			Stack& operator+=(int element);
+	Source
+			Stack& Stack::operator+=(int element)
+			{
+				if (stacktop_ < stacksize_) {
+					dataPtr_[stacktop_] = element;
+					stacktop_++;
+				}
+				return *this;
+			}
 
 // / operator - medlemsfunktion
 	Header
