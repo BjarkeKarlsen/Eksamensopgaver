@@ -1,0 +1,183 @@
+Indholdsfortegnelse
+
+Arv og polymorfi
+{
+	Aug2016
+	- Opgave 3
+
+	Jan2017
+	- Opgave 2
+
+	Mar2017
+	- Opgave 2
+
+	Juni2017
+	- Opgave 2
+
+	Jan2018
+	- Opgave 1
+
+	Jun2018
+	- Opgave 3
+	
+	Jan 2019
+	- Opgave 1
+
+	Jan 2020
+	- opgave 2
+	Jun2020
+	- Opgave 1
+
+	Jan2021
+	- Opgave 2
+
+	Juni2021
+	- Opgave 2
+
+	Aug2021
+	- Opgave 2
+}
+
+Komposition
+{
+	Juni2017
+	- Opgave 3
+}
+Association
+{
+	Juni2016
+	- Opgave 2
+
+	Mar2017
+	- Opgave 1
+
+	Jan 2020
+	- opgave 2G
+}
+
+Overloading (operatorer)
+{
+	Juni2016 
+	- Opgave 1
+
+	Juni2017
+	- Opgave 1 (rule of three)
+
+	Aug2016
+	- Opgave 1 (>> og == operator)
+
+	Aug2017
+	- Opgave 2 (rule of three)
+	- Opgave 2 (operator+)
+
+	Jan2018
+	- Opgave 1 (<operator, << operator)
+
+	Juni2018
+	- Opgave 1(< og > operator)
+
+	Aug2018
+	- Opgave 1
+
+	Jan2019
+	- Opgave 2a (<< operator )
+
+	Jan2020
+	- Opgave 1 (<< operator)
+
+	Juni2020
+	- Opgave 3 (+= operator )
+
+	Jan2021
+	- Opgave 1  (&& og || operator)
+
+	Juni2021
+	- Opgave 1 (operator +=)
+
+	Aug2021
+	- Opgave 1 (++operator)
+}	
+
+Dynamisk allokering og pointers
+{
+	Juni2016
+	- Opgave 2
+
+	Aug2016
+	- Opgave 2
+
+	Jan2017
+	- Opgave 3
+
+	Mar2017
+	- Opgave 3
+
+	Juni2017
+	- Opgave 1
+
+	Aug2017
+	- Opgave 1
+
+	Jan2018
+	- Opgave 1D ( array)
+
+	Aug2018
+	- Opgave 3
+
+	Juni2018
+	- Opgave 3
+
+	Jan 2019
+	- Opgave 3 (stack, Catch)
+
+	Juni2020
+	- Opgave 3
+
+	Juni2021
+	- Opgave 2
+
+	Aug2021
+	- Opgave 2
+	
+}
+
+STL
+{
+	Juni2016
+	- Opgave 1 (list)
+
+	Aug2016
+	- Opgave 1 (vector)
+
+	Mar2017
+	- Opgave 1
+
+	Juni2017
+	- Opgae 2 (Deque)
+
+	Jan2018
+	- Opgave 2 (vector, const_interator og alm iter)
+
+	Juni2018
+	- Opgave 2 (TEMPLATES!!)
+	- Opgave 3 (list)
+
+	Aug2018
+	- Opgave 2
+
+	Jan2019
+	- Opgave 2C (vector, const_iterator)
+
+	Jan2020
+	- Opgave 1 (vector og array)
+
+	Jan2021
+	- Opgave 2 (vector)
+
+	Juni2021
+	- Opgave 1 (list)
+
+	Aug2021
+	- Opgave 3 (deque)
+
+}

@@ -103,5 +103,29 @@
 				return ptr[index];
 			}
 
+// < operator
 
-DISSE TING IMPLEMENTERES OG TESTES NORMALT 11
+	Header //fri funktion
+	bool operator<(const Kasse& kasse1, const Kasse& kassek2);
+
+	Source
+	bool operator<(const Kasse& kasse1, const Kasse& kasse2)
+	{
+		if (kasse1.beregnVolumen() < kasse2.beregnVolumen()) 
+		{
+			return true;
+		}
+
+		return false;
+	}
+
+// > operator
+	Header
+	bool operator>(const Kasse& kasse1, const Kasse& kassek2);
+
+	Source
+	bool operator>(const Kasse& kasse1, const Kasse& kasse2)
+	{
+		return (kasse1.beregnVolumen() > kasse2.beregnVolumen() ? true : false);
+	}
+DISSE TING IMPLEMENTERES OG TESTES NORMALT

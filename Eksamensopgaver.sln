@@ -44,13 +44,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Juni2017", "Juni2017\Juni20
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Juni2016", "Juni2016\Juni2016.vcxproj", "{2D2853AE-F09C-4691-956D-1372AD09E8A9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "August2017", "August2017\August2017.vcxproj", "{4B3D6AF4-7D24-4A84-89C7-9062796844C3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "August2016", "August2017\August2017.vcxproj", "{4B3D6AF4-7D24-4A84-89C7-9062796844C3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Januar2017", "Januar2017\Januar2017.vcxproj", "{181C3D8D-5D9E-4B50-A46F-C1DAA63328B1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Marts2017", "Marts2017\Marts2017.vcxproj", "{E5A97DB8-355D-42C1-8B19-C022E228330F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "August2016", "August2016\August2016.vcxproj", "{BB139EF5-AEA0-4F7B-AEB7-B9A99D6110BE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Januar2016", "August2016\August2016.vcxproj", "{BB139EF5-AEA0-4F7B-AEB7-B9A99D6110BE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Januar2019", "Januar2019\Januar2019.vcxproj", "{06AC37FF-2279-4763-86E2-9E093A28EFDC}"
 EndProject
@@ -59,6 +59,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CheatSheet", "CheatSheet", 
 		Dynamic_Allocate_Memory.cpp = Dynamic_Allocate_Memory.cpp
 		Operators.cpp = Operators.cpp
 		STL.cpp = STL.cpp
+		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
 Global
