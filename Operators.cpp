@@ -21,6 +21,18 @@
 				setY(y_ + rightRef.y_);
 			}
 
+//+= operator - medlemsfunktion - se Januar 2019
+	Header
+			Stack& operator+=(int element);
+	Source
+			Stack& Stack::operator+=(int element)
+			{
+				if (stacktop_ < stacksize_) {
+					dataPtr_[stacktop_] = element;
+					stacktop_++;
+				}
+				return *this;
+			}
 
 // / operator - medlemsfunktion
 	Header
@@ -103,29 +115,58 @@
 				return ptr[index];
 			}
 
-// < operator
 
-	Header //fri funktion
-	bool operator<(const Kasse& kasse1, const Kasse& kassek2);
+DISSE TING IMPLEMENTERES OG TESTES NORMALT 11
 
-	Source
-	bool operator<(const Kasse& kasse1, const Kasse& kasse2)
-	{
-		if (kasse1.beregnVolumen() < kasse2.beregnVolumen()) 
-		{
-			return true;
-		}
+//Overload || and && if the resistor -- Januar 2021
+			friend Resistor operator&&(const Resistor& right, const Resistor& left);
+			friend Resistor operator||(const Resistor& right, const Resistor& left);
+			Resistor operator&&(const Resistor& right, const Resistor& left);
+			Resistor operator||(const Resistor& right, const Resistor& left);
 
-		return false;
-	}
+			Resistor operator&&(const Resistor& right, const Resistor& left)
+			{
+				Resistor local(0);
+				local = right.resistance_ + left.resistance_;
+				return local;
+			}
 
-// > operator
-	Header
-	bool operator>(const Kasse& kasse1, const Kasse& kassek2);
+			Resistor operator||(const Resistor& right, const Resistor& left)
+			{
+				Resistor local(0);
+				local.setConductance(right.getConductance() + left.getConductance());
+				//local.resistance_ = (right.getResitance() * left.getResitance())/ (right.getResitance() + left.getResitance());
+				//local.resistance_ = (right.resistance_ * left.resistance_) / (right.resistance_ + left.resistance_);
+				return local;
+			}
 
-	Source
-	bool operator>(const Kasse& kasse1, const Kasse& kasse2)
-	{
-		return (kasse1.beregnVolumen() > kasse2.beregnVolumen() ? true : false);
-	}
-DISSE TING IMPLEMENTERES OG TESTES NORMALT
+// ++ Pre operator  - medlems funktion
+		Header
+			const Person& operator++();
+
+		Source
+			const Person& Person::operator++()
+			{
+				if (vaccineStatus_ < 2) {
+					vaccineStatus_++;
+				}
+
+				return *this;
+			}
+
+// ++ Post operator - medlems funktion
+		Header
+			Person operator++(int dummy);
+
+		Source
+			Person Person::operator++(int dummy)
+			{
+				Person local = *this;
+
+				if (vaccineStatus_ < 2) {
+					++((*this).vaccineStatus_);
+					//vaccineStatus_++;
+				}
+
+				return local;
+			}
